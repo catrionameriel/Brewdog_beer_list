@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(0, 222, 225);
+}
+
+#logo {
+  width: 20%;
+}
+
+#beer-list {
+  display: grid;
+  grid-gap: 1em;
+  justify-content: center;
+  list-style: none;
+  font-family: century;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+li {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: black;
+  padding: 0.3em;
+  grid-gap: 1em;
+  background-color: rgb(200, 245, 255);
+}
+
+img {
+  margin: auto;
+  width: 20%;
+}
